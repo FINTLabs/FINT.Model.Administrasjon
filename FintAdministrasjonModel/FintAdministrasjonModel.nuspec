@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>fint-administrasjon-model-csharp</id>
+    <version>1.0.0-rc2</version>
+    <title>fint-administrasjon-model-csharp</title>
+    <authors>oae</authors>
+    <owners>oae</owners>
+    <projectUrl>http://github.com/fintprosjektet</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>FintAdministrasjonModel</description>
+    <releaseNotes>Initial model.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>fint model</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\FintAdministrasjonModel.dll" target="lib\netstandard1.4\FintAdministrasjonModel.dll" />
+  </files>
+</package>
