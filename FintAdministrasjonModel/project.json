@@ -1,6 +1,7 @@
 ﻿{
   "supports": {},
   "dependencies": {
+    "fint-felles-model-csharp": "1.0.0-rc2",
     "Microsoft.NETCore.Portable.Compatibility": "1.0.1",
     "NETStandard.Library": "1.6.0"
   },

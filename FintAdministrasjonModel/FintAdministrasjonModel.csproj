@@ -39,10 +39,19 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Kodeverk\Ansvar.cs" />
+    <Compile Include="Model\Kodeverk\Arbeidsforholdstype.cs" />
+    <Compile Include="Model\Kodeverk\Art.cs" />
+    <Compile Include="Model\Kodeverk\Funksjon.cs" />
+    <Compile Include="Model\Kodeverk\Personalressurskategori.cs" />
+    <Compile Include="Model\Kodeverk\Prosjekt.cs" />
+    <Compile Include="Model\Kodeverk\Stillingskode.cs" />
+    <Compile Include="Model\Kodeverk\TimerPerUkeKode.cs" />
+    <Compile Include="Model\Organisasjon\Organisasjonselement.cs" />
+    <Compile Include="Model\Personal\Arbeidsforhold.cs" />
+    <Compile Include="Model\Personal\Personalressurs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>
