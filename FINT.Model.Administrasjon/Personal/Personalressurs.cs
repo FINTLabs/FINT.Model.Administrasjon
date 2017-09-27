@@ -1,24 +1,23 @@
-using System;
-
+// Built from tag v2.0.0
 
 using FINT.Model.Felles.Kompleksedatatyper;
 
 namespace FINT.Model.Administrasjon.Personal
 {
-	public class Personalressurs {
-		public enum Relasjonsnavn
+    public class Personalressurs
+    {
+        public enum Relasjonsnavn
         {
-			PARORENDE,
-			PERSONALRESSURSKATEGORI,
-			ARBEIDSFORHOLD
+            PERSONALRESSURSKATEGORI,
+            ARBEIDSFORHOLD,
+            PERSON
         }
-        
-	
-		public Identifikator brukernavn { get; set; }
-		public Identifikator systemId { get; set; }
-		public Identifikator ansattnummer { get; set; }
-		public Periode ansettelsesperiode { get; set; }
-		public Kontaktinformasjon kontaktinformasjon { get; set; }
-		
-	}
+
+
+        public Identifikator Ansattnummer { get; set; }
+        public Periode Ansettelsesperiode { get; set; }
+        public Identifikator Brukernavn { get; set; }
+        public Kontaktinformasjon Kontaktinformasjon { get; set; }
+        public Identifikator SystemId { get; set; }
+    }
 }

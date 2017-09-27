@@ -4,7 +4,7 @@ using FINT.Model.Felles.Basisklasser;
 
 namespace FINT.Model.Administrasjon.Kodeverk
 {
-    public class Ansvar : Begrep
+    public class Arbeidsforholdstype : Begrep
     {
         public enum Relasjonsnavn
         {

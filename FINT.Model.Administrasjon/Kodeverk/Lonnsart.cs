@@ -4,11 +4,7 @@ using FINT.Model.Felles.Basisklasser;
 
 namespace FINT.Model.Administrasjon.Kodeverk
 {
-    public class Ansvar : Begrep
+    public class Lonnsart : Begrep
     {
-        public enum Relasjonsnavn
-        {
-            FORELDER
-        }
     }
 }

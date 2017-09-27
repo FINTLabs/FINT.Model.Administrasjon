@@ -1,32 +1,32 @@
-using System;
-
+// Built from tag v2.0.0
 
 using FINT.Model.Felles.Kompleksedatatyper;
 
 namespace FINT.Model.Administrasjon.Personal
 {
-	public class Arbeidsforhold {
-		public enum Relasjonsnavn
+    public class Arbeidsforhold
+    {
+        public enum Relasjonsnavn
         {
-			ANSVAR,
-			ARBEIDSFORHOLDSTYPE,
-			FUNKSJON,
-			STILLINGSKODE,
-			TIMERPERUKE,
-			ARBEIDSSTED,
-			UNDERVISNINGSFORHOLD,
-			PERSONALRESSURS
+            ANSVAR,
+            ARBEIDSFORHOLDSTYPE,
+            FUNKSJON,
+            STILLINGSKODE,
+            TIMERPERUKE,
+            ARBEIDSSTED,
+            PERSONALRESSURS,
+            UNDERVISNINGSFORHOLD
         }
-        
-	
-		public Identifikator systemId { get; set; }
-		public string stillingsnummer { get; set; }
-		public Periode gyldighetsperiode { get; set; }
-		public double arslonn { get; set; }
-		public string stillingstittel { get; set; }
-		public double ansettelsesprosent { get; set; }
-		public double lonnsprosent { get; set; }
-		public bool hovedstilling { get; set; }
-		
-	}
+
+
+        public long Ansettelsesprosent { get; set; }
+        public Periode Gyldighetsperiode { get; set; }
+        public bool Hovedstilling { get; set; }
+        public long Lonnsprosent { get; set; }
+        public string Stillingsnummer { get; set; }
+        public string Stillingstittel { get; set; }
+        public Identifikator SystemId { get; set; }
+        public long Tilstedeprosent { get; set; }
+        public long Arslonn { get; set; }
+    }
 }

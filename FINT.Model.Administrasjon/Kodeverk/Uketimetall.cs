@@ -1,11 +1,10 @@
-using System;
-
+// Built from tag v2.0.0
 
 using FINT.Model.Felles.Basisklasser;
 
 namespace FINT.Model.Administrasjon.Kodeverk
 {
-	public class TimerPerUkeKode : Begrep {
-	
-	}
+    public class Uketimetall : Begrep
+    {
+    }
 }
