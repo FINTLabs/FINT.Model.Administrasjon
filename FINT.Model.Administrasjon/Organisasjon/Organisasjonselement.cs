@@ -1,7 +1,7 @@
-// Built from tag v2.0.0
+// Built from tag v2.0.10
 
-using FINT.Model.Felles.Basisklasser;
 using FINT.Model.Felles.Kompleksedatatyper;
+using FINT.Model.Felles.Basisklasser;
 
 namespace FINT.Model.Administrasjon.Organisasjon
 {
@@ -12,7 +12,8 @@ namespace FINT.Model.Administrasjon.Organisasjon
             LEDER,
             OVERORDNET,
             UNDERORDNET,
-            SKOLE
+            SKOLE,
+            ARBEIDSFORHOLD
         }
 
 
