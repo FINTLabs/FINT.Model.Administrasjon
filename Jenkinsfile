@@ -12,7 +12,7 @@ pipeline {
         VERSION = '2.2.10'
       }
       steps {
-        sh 'dotnet restore'
+        sh 'dotnet restore -s https://api.bintray.com/nuget/fint/nuget'
         sh 'dotnet build -c Release'
         sh 'dotnet pack -c Release'
         stash includes: '**/Release/*.nupkg', name: 'libs'
