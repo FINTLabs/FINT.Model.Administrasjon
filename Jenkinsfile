@@ -9,7 +9,7 @@ pipeline {
         }
       }
       environment {
-        VERSION = 2.2.10
+        VERSION = '2.2.10'
       }
       steps {
         sh 'dotnet restore'
