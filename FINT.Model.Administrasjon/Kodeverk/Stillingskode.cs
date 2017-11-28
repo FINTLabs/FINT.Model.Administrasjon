@@ -1,14 +1,20 @@
-// Built from tag v2.0.10
+// Built from tag v2.2.10
 
-using FINT.Model.Felles.Basisklasser;
+using System;
+using System.Collections.Generic;
+
+
+
+using FINT.Model.Administrasjon.Kodeverk;
 
 namespace FINT.Model.Administrasjon.Kodeverk
 {
-    public class Stillingskode : Begrep
-    {
-        public enum Relasjonsnavn
+	public class Stillingskode : Kodeverk {
+		public enum Relasjonsnavn
         {
-            FORELDER
+			FORELDER
         }
-    }
+        
+	
+	}
 }

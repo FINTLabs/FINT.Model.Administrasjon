@@ -1,26 +1,31 @@
-// Built from tag v2.0.10
+// Built from tag v2.2.10
+
+using System;
+using System.Collections.Generic;
+
+
 
 using FINT.Model.Felles.Kompleksedatatyper;
 using FINT.Model.Felles.Basisklasser;
 
 namespace FINT.Model.Administrasjon.Organisasjon
 {
-    public class Organisasjonselement : Enhet
-    {
-        public enum Relasjonsnavn
+	public class Organisasjonselement : Enhet {
+		public enum Relasjonsnavn
         {
-            LEDER,
-            OVERORDNET,
-            UNDERORDNET,
-            SKOLE,
-            ARBEIDSFORHOLD
+			LEDER,
+			OVERORDNET,
+			UNDERORDNET,
+			SKOLE,
+			ARBEIDSFORHOLD
         }
-
-
-        public Periode Gyldighetsperiode { get; set; }
-        public string Kortnavn { get; set; }
-        public string Navn { get; set; }
-        public Identifikator OrganisasjonsId { get; set; }
-        public Identifikator OrganisasjonsKode { get; set; }
-    }
+        
+	
+		public Periode Gyldighetsperiode { get; set; }
+		public string Kortnavn { get; set; }
+		public string Navn { get; set; }
+		public Identifikator OrganisasjonsId { get; set; }
+		public Identifikator OrganisasjonsKode { get; set; }
+		
+	}
 }

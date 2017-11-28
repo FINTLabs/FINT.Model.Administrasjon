@@ -5,11 +5,13 @@ using System.Collections.Generic;
 
 
 
-using FINT.Model.Administrasjon.Kodeverk;
+using FINT.Model.Felles.Basisklasser;
 
 namespace FINT.Model.Administrasjon.Kodeverk
 {
-	public class Lonnsart : Kodeverk {
+	public abstract class Kodeverk : Begrep {
 	
+		public bool? Passiv { get; set; }
+		
 	}
 }

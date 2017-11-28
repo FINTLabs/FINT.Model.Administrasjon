@@ -1,11 +1,14 @@
-// Built from tag v2.0.10
+// Built from tag v2.2.10
+
+using System;
 
 namespace FINT.Model.Administrasjon.Organisasjon
 {
-    public enum OrganisasjonActions
+	public enum OrganisasjonActions
     {
-        GET_ORGANISASJONSELEMENT,
-        GET_ALL_ORGANISASJONSELEMENT,
-        UPDATE_ORGANISASJONSELEMENT
+	
+	GET_ORGANISASJONSELEMENT,
+	GET_ALL_ORGANISASJONSELEMENT,
+	UPDATE_ORGANISASJONSELEMENT
     }
 }

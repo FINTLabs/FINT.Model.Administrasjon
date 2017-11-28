@@ -3,13 +3,13 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-    <Version>2.0.10</Version>
+    <Version>$(VERSION)</Version>
     <Authors>FINT</Authors>
     <PackageTags>fint</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FINT.Model.Felles" Version="2.0.10" />
+    <PackageReference Include="FINT.Model.Felles" Version="$(VERSION)" />
   </ItemGroup>
 
 </Project>
