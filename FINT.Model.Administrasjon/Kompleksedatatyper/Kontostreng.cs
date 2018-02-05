@@ -5,14 +5,15 @@ using System.Collections.Generic;
 
 
 
-using FINT.Model.Administrasjon.Kodeverk;
-
-namespace FINT.Model.Administrasjon.Kodeverk
+namespace FINT.Model.Administrasjon.Kompleksedatatyper
 {
-	public class Art : Kontodimensjon {
+	public class Kontostreng {
 		public enum Relasjonsnavn
         {
-			FULLMAKT
+			ANSVAR,
+			ART,
+			FUNKSJON,
+			PROSJEKT
         }
         
 	

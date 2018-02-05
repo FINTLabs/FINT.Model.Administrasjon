@@ -1,15 +1,15 @@
-// Built from tag v2.2.20
+// Built from tag v2.4.0-rc-4
 
 using System;
 using System.Collections.Generic;
 
 
 
-using FINT.Model.Administrasjon.Kodeverk;
+using FINT.Model.Felles.Basisklasser;
 
 namespace FINT.Model.Administrasjon.Kodeverk
 {
-	public class Lonnsart : Kodeverk {
+	public class Lonnsart : Begrep {
 	
 	}
 }
