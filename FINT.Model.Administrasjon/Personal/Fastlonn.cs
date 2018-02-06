@@ -1,10 +1,11 @@
-// Built from tag v2.4.0-rc-4
+// Built from tag v2.4.0
 
 using System;
 using System.Collections.Generic;
 
 
 
+using FINT.Model.Administrasjon.Kompleksedatatyper;
 using FINT.Model.Administrasjon.Personal;
 
 namespace FINT.Model.Administrasjon.Personal
@@ -12,8 +13,6 @@ namespace FINT.Model.Administrasjon.Personal
 	public class Fastlonn : Lonn {
 		public enum Relasjonsnavn
         {
-			BESKJEFTIGELSE,
-			FASTTILLEGG,
 			ANVISER,
 			KONTERER,
 			ATTESTANT,
@@ -21,5 +20,8 @@ namespace FINT.Model.Administrasjon.Personal
         }
         
 	
+		public List<Beskjeftigelse> Beskjeftigelse { get; set; }
+		public List<Fasttillegg> Fasttillegg { get; set; }
+		
 	}
 }
