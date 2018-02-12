@@ -1,4 +1,4 @@
-// Built from tag v2.4.0
+// Built from tag v2.6.0-beta-1
 
 using System;
 using System.Collections.Generic;
@@ -19,6 +19,7 @@ namespace FINT.Model.Administrasjon.Personal
 			TIMERPERUKE,
 			ARBEIDSSTED,
 			PERSONALLEDER,
+			FRAVAR,
 			LONN,
 			PERSONALRESSURS,
 			UNDERVISNINGSFORHOLD

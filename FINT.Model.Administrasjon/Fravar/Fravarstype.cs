@@ -7,9 +7,11 @@ using System.Collections.Generic;
 
 using FINT.Model.Felles.Basisklasser;
 
-namespace FINT.Model.Administrasjon.Kodeverk
+namespace FINT.Model.Administrasjon.Fravar
 {
-	public class Personalressurskategori : Begrep {
+	public class Fravarstype : Begrep {
 	
+		public bool? Overfores { get; set; }
+		
 	}
 }
