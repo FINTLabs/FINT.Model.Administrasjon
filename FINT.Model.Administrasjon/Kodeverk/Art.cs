@@ -1,20 +1,15 @@
-// Built from tag v2.6.0-beta-1
+// Built from tag v0.99.0
 
 using System;
 using System.Collections.Generic;
 
 
 
-using FINT.Model.Administrasjon.Kodeverk;
+using FINT.Model.Felles.Basisklasser;
 
 namespace FINT.Model.Administrasjon.Kodeverk
 {
-	public class Art : Kontodimensjon {
-		public enum Relasjonsnavn
-        {
-			FULLMAKT
-        }
-        
+	public class Art : Begrep {
 	
 	}
 }
