@@ -1,4 +1,4 @@
-// Built from tag v0.99.0
+// Built from tag v0.99.9
 
 using System;
 using System.Collections.Generic;
@@ -18,13 +18,14 @@ namespace FINT.Model.Administrasjon.Personal
 			STILLINGSKODE,
 			TIMERPERUKE,
 			ARBEIDSSTED,
+			PERSONALLEDER,
+			LONN,
 			PERSONALRESSURS,
 			UNDERVISNINGSFORHOLD
         }
         
 	
 		public long Ansettelsesprosent { get; set; }
-		public long Arslonn { get; set; }
 		public Periode Gyldighetsperiode { get; set; }
 		public bool Hovedstilling { get; set; }
 		public long Lonnsprosent { get; set; }
@@ -32,6 +33,7 @@ namespace FINT.Model.Administrasjon.Personal
 		public string Stillingstittel { get; set; }
 		public Identifikator SystemId { get; set; }
 		public long Tilstedeprosent { get; set; }
+		public long Arslonn { get; set; }
 		
 	}
 }

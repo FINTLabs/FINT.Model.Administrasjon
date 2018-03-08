@@ -1,4 +1,4 @@
-// Built from tag v0.99.0
+// Built from tag v0.99.9
 
 using System;
 using System.Collections.Generic;
@@ -14,7 +14,11 @@ namespace FINT.Model.Administrasjon.Personal
         {
 			PERSONALRESSURSKATEGORI,
 			ARBEIDSFORHOLD,
-			PERSON
+			PERSON,
+			STEDFORTREDER,
+			FULLMAKT,
+			LEDER,
+			PERSONALANSVAR
         }
         
 	

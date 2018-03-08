@@ -1,4 +1,4 @@
-// Built from tag v0.99.0
+// Built from tag v0.99.9
 
 using System;
 
@@ -7,6 +7,12 @@ namespace FINT.Model.Administrasjon.Personal
 	public enum PersonalActions
     {
 	
+	GET_FASTLONN,
+	GET_ALL_FASTLONN,
+	UPDATE_FASTLONN,
+	GET_VARIABELLONN,
+	GET_ALL_VARIABELLONN,
+	UPDATE_VARIABELLONN,
 	GET_PERSONALRESSURS,
 	GET_ALL_PERSONALRESSURS,
 	UPDATE_PERSONALRESSURS,
