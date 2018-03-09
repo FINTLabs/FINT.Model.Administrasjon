@@ -7,19 +7,21 @@ using System.Collections.Generic;
 
 using FINT.Model.Felles.Kompleksedatatyper;
 
-namespace FINT.Model.Administrasjon.Fullmakt
+namespace FINT.Model.Administrasjon.Fravar
 {
-	public class Fullmakt {
+	public class Fravar {
 		public enum Relasjonsnavn
         {
-			MYNDIGHET,
-			STEDFORTREDER,
-			FULLMEKTIG,
-			ROLLE
+			FRAVARSTYPE,
+			FRAVARSGRUNN,
+			ARBEIDSFORHOLD,
+			FORTSETTELSE,
+			FORTSETTER
         }
         
 	
-		public Periode Gyldighetsperiode { get; set; }
+		public Periode Periode { get; set; }
+		public long Prosent { get; set; }
 		public Identifikator SystemId { get; set; }
 		
 	}
