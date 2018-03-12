@@ -1,4 +1,4 @@
-// Built from tag v2.6.0-beta-2
+// Built from tag v2.6.0-beta-3
 
 using System;
 
@@ -10,6 +10,9 @@ namespace FINT.Model.Administrasjon.Personal
 	GET_FASTLONN,
 	GET_ALL_FASTLONN,
 	UPDATE_FASTLONN,
+	GET_FRAVAR,
+	GET_ALL_FRAVAR,
+	UPDATE_FRAVAR,
 	GET_VARIABELLONN,
 	GET_ALL_VARIABELLONN,
 	UPDATE_VARIABELLONN,

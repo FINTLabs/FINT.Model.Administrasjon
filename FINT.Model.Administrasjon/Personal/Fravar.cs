@@ -1,4 +1,4 @@
-// Built from tag v2.6.0-beta-2
+// Built from tag v2.6.0-beta-3
 
 using System;
 using System.Collections.Generic;
@@ -7,13 +7,13 @@ using System.Collections.Generic;
 
 using FINT.Model.Felles.Kompleksedatatyper;
 
-namespace FINT.Model.Administrasjon.Fravar
+namespace FINT.Model.Administrasjon.Personal
 {
 	public class Fravar {
 		public enum Relasjonsnavn
         {
-			FRAVARSTYPE,
 			FRAVARSGRUNN,
+			FRAVARSTYPE,
 			ARBEIDSFORHOLD,
 			FORTSETTELSE,
 			FORTSETTER

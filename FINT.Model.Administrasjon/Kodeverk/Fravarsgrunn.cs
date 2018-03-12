@@ -1,4 +1,4 @@
-// Built from tag v2.6.0-beta-2
+// Built from tag v2.6.0-beta-3
 
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 using FINT.Model.Felles.Basisklasser;
 
-namespace FINT.Model.Administrasjon.Fravar
+namespace FINT.Model.Administrasjon.Kodeverk
 {
 	public class Fravarsgrunn : Begrep {
 	
