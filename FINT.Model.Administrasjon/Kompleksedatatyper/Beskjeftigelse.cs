@@ -1,4 +1,4 @@
-// Built from tag v2.6.0-beta-3
+// Built from tag v2.6.0-rc-1
 
 using System;
 using System.Collections.Generic;
@@ -6,6 +6,7 @@ using System.Collections.Generic;
 
 
 using FINT.Model.Administrasjon.Kompleksedatatyper;
+using FINT.Model.Felles.Kompleksedatatyper;
 
 namespace FINT.Model.Administrasjon.Kompleksedatatyper
 {
@@ -18,6 +19,7 @@ namespace FINT.Model.Administrasjon.Kompleksedatatyper
 	
 		public string Beskrivelse { get; set; }
 		public Kontostreng Kontostreng { get; set; }
+		public Periode Periode { get; set; }
 		public long Prosent { get; set; }
 		
 	}
