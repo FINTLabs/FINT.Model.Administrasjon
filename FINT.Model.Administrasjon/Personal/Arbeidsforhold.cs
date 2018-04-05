@@ -1,4 +1,4 @@
-// Built from tag v2.6.0
+// Built from tag v2.7.0
 
 using System;
 using System.Collections.Generic;
@@ -27,6 +27,7 @@ namespace FINT.Model.Administrasjon.Personal
         
 	
 		public long Ansettelsesprosent { get; set; }
+		public long Arslonn { get; set; }
 		public Periode Gyldighetsperiode { get; set; }
 		public bool Hovedstilling { get; set; }
 		public long Lonnsprosent { get; set; }
@@ -34,7 +35,6 @@ namespace FINT.Model.Administrasjon.Personal
 		public string Stillingstittel { get; set; }
 		public Identifikator SystemId { get; set; }
 		public long Tilstedeprosent { get; set; }
-		public long Arslonn { get; set; }
 		
 	}
 }
