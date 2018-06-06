@@ -9,7 +9,7 @@ using FINT.Model.Administrasjon.Personal;
 
 namespace FINT.Model.Administrasjon.Personal
 {
-	public class Fastlonn : Lonn {
+	public class Fasttillegg : Lonn {
 		public enum Relasjonsnavn
         {
 			LONNSART,
@@ -20,7 +20,7 @@ namespace FINT.Model.Administrasjon.Personal
         }
         
 	
-		public long Prosent { get; set; }
+		public long Belop { get; set; }
 		
 	}
 }

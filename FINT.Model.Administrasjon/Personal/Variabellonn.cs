@@ -1,11 +1,10 @@
-// Built from tag v2.8.0
+// Built from tag v3.0.0-rc-1
 
 using System;
 using System.Collections.Generic;
 
 
 
-using FINT.Model.Administrasjon.Kompleksedatatyper;
 using FINT.Model.Administrasjon.Personal;
 
 namespace FINT.Model.Administrasjon.Personal
@@ -13,6 +12,7 @@ namespace FINT.Model.Administrasjon.Personal
 	public class Variabellonn : Lonn {
 		public enum Relasjonsnavn
         {
+			LONNSART,
 			ANVISER,
 			KONTERER,
 			ATTESTANT,
@@ -20,7 +20,8 @@ namespace FINT.Model.Administrasjon.Personal
         }
         
 	
-		public List<Variabelttillegg> Variabelttillegg { get; set; }
+		public long Antall { get; set; }
+		public long? Belop { get; set; }
 		
 	}
 }
