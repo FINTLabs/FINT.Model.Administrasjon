@@ -1,4 +1,4 @@
-// Built from tag v3.3.0
+// Built from tag v3.4.0-rc-1
 
 using System;
 using System.Collections.Generic;
@@ -10,10 +10,17 @@ namespace FINT.Model.Administrasjon.Kompleksedatatyper
 	public class Kontostreng {
 		public enum Relasjonsnavn
         {
+			AKTIVITET,
+			ANLEGG,
 			ANSVAR,
 			ART,
+			DIVERSE,
 			FUNKSJON,
-			PROSJEKT
+			KONTRAKT,
+			LOPENUMMER,
+			OBJEKT,
+			PROSJEKT,
+			RAMME
         }
         
 	

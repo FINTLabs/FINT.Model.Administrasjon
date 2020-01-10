@@ -9,12 +9,9 @@ using FINT.Model.Administrasjon.Kodeverk;
 
 namespace FINT.Model.Administrasjon.Kodeverk
 {
-	public class Ansvar : Kontodimensjon {
+	public class Ramme : Kontodimensjon {
 		public enum Relasjonsnavn
         {
-			OVERORDNET,
-			UNDERORDNET,
-			ORGANISASJONSELEMENT,
 			FULLMAKT
         }
         
